@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        var nilai = prompt("Input angka");
+        var kosong = "";
+
+        if(nilai >= 85) hasil = "A"
+        else if(70 <= nilai >85) hasil= "B"
+        else if(55 <= nilai >70) hasil = "C"
+        else if(40 >= nilai >60) hasil = "D"
+        else if(nilai <= 40) hasil = "E"
+      
+        else kosong = "F";
+
+        document.write(`<p>hasil angka: ${hasil}</p>`);
+    </script>
+</body>
+</html>

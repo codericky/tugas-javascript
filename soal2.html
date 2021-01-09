@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<script>
+function average(scores){
+
+var total = 0;
+
+scores.forEach(function(score) {
+
+total += score;
+
+
+});
+
+var avg = total/scores.length
+
+return Math.round(avg);
+
+}
+
+console.log("Nilai Ganjil ");
+
+
+var scores = [11, 13, 15, 17, 19];
+
+
+console.log(average(scores));
+
+console.log("Nilai Genap ");
+
+var scores2 = [10,12,14,16,18,20];
+
+
+console.log(average(scores2));
+</script>
+
+</body>
+</html>
+
